@@ -82,12 +82,12 @@ def factorize(n):
 def isprime(n):
   '''See if a given number is prime or not.'''
 
-  limit = int(math.sqrt(n))
+  limit = int(math.sqrt(n))  # negativity flagged, if any
   k = 6
   status = True
 
-  # trivial case
-  if n == 1:
+  # trivial case(s)
+  if n == 0 or n == 1:
     return False
 
   # not so trivial cases
