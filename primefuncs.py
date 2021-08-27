@@ -3,12 +3,12 @@ import math
 def factorize(n):
   '''Check out all the prime factors of a given number.'''
 
-  limit = int(math.sqrt(n))
+  limit = int(math.sqrt(n))  # negativity flagged, if any
   primes = []
   k = 6
 
-  # trivial case
-  if n == 1:
+  # trivial case(s)
+  if n == 0 or n == 1:
     return primes
 
   c = 0
