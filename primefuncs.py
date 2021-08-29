@@ -59,14 +59,14 @@ def factorize(n):
 		if not j <= limit:
 			primes.append((n, 1))  # the largest one
 			break
-	
+
 		c = 0
 		while True:
 			if not n%j == 0:
 				break
 			c = c + 1
 			n = n // j
- 
+
 		if not c == 0:
 			primes.append((j, c))
 			if n == 1:
