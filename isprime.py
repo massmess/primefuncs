@@ -22,6 +22,6 @@ while True:
 		print("Checking...")
 		print(f"To be tested: {n}")
 		if isprime(n):
-			print(f"(O) {n} is a PRIME NUMBERu.")
+			print(f"(O) {n} is a PRIME NUMBER.")
 		else:
 			print(f"(X) {n} is NOT a prime number.")
