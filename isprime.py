@@ -20,9 +20,8 @@ while True:
 		print("Number must be non-zero, non-negative!")
 	else:
 		print("Checking...")
-		y = isprime(n)
 		print(f"To be tested: {n}")
-		if y:
-			print(f"(O) {n} is a prime number.")
+		if isprime(n):
+			print(f"(O) {n} is a PRIME NUMBERu.")
 		else:
 			print(f"(X) {n} is NOT a prime number.")
